@@ -10,7 +10,7 @@ class Layer
 
 		// Accessors
 		unsigned int getWidth();
-		double* getBiases();
+		double* getBias();
 		//double getBias(unsigned int neuronIndex);
 		double** getLayerWeights();
 		//double* getNeuronWeights(unsigned int neuronIndex);

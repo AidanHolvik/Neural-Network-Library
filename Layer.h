@@ -4,27 +4,6 @@
 class Layer
 {
 	public:
-		// Constructor(s)
-		Layer();
-		Layer(unsigned int width, void* activationFunction);
-
-		// Accessors
-		unsigned int getWidth();
-		double* getBias();
-		//double getBias(unsigned int neuronIndex);
-		double** getLayerWeights();
-		//double* getNeuronWeights(unsigned int neuronIndex);
-		//double getWeight(unsigned int neuronIndex, unsigned int dendriteIndex);
-		void* getActivationFunction();
-
-		// Mutators
-		void setWidth(unsigned int newWidth);
-		void setBiases(double* newBiases);
-		//void setBias(double newBias, unsigned int neuronIndex);
-		void setLayerWeights(double** newWeights);
-		//void setNeuronWeights(double* newWeights, unsigned int neuronIndex);
-		//void setWeight(double newWeight, unsigned int neuronIndex, unsigned int dendriteIndex);
-		void setActivationFunction(void* newActivationFunction);
 
 
 	private:
